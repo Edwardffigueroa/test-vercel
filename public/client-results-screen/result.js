@@ -4,7 +4,7 @@ async function fetchData() {
   renderLoadingState();
   try {
     const response = await fetch(
-      "https://client-server-vercel-deploy.vercel.app/users"
+      "https://test-vercel-seven-rose.vercel.app/users"
     );
     if (!response.ok) {
       throw new Error("Network response was not ok");
